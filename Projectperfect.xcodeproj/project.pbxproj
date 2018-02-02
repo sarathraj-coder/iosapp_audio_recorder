@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24A5563E2020DCB100280EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5563D2020DCB100280EF6 /* AppDelegate.swift */; };
-		24A556402020DCB100280EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5563F2020DCB100280EF6 /* ViewController.swift */; };
+		24A556402020DCB100280EF6 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5563F2020DCB100280EF6 /* RecordSoundViewController.swift */; };
 		24A556432020DCB100280EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A556412020DCB100280EF6 /* Main.storyboard */; };
 		24A556452020DCB100280EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A556442020DCB100280EF6 /* Assets.xcassets */; };
 		24A556482020DCB100280EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A556462020DCB100280EF6 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		24A5563A2020DCB100280EF6 /* Projectperfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projectperfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A5563D2020DCB100280EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24A5563F2020DCB100280EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24A5563F2020DCB100280EF6 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		24A556422020DCB100280EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24A556442020DCB100280EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A556472020DCB100280EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				24A5563D2020DCB100280EF6 /* AppDelegate.swift */,
-				24A5563F2020DCB100280EF6 /* ViewController.swift */,
+				24A5563F2020DCB100280EF6 /* RecordSoundViewController.swift */,
 				24A556412020DCB100280EF6 /* Main.storyboard */,
 				24A556442020DCB100280EF6 /* Assets.xcassets */,
 				24A556462020DCB100280EF6 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A556402020DCB100280EF6 /* ViewController.swift in Sources */,
+				24A556402020DCB100280EF6 /* RecordSoundViewController.swift in Sources */,
 				24A5563E2020DCB100280EF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projectperfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.acelrtech.Projectperfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srsystem.Projectperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Projectperfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.acelrtech.Projectperfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srsystem.Projectperfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +299,7 @@
 				24A5564E2020DCB100280EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
