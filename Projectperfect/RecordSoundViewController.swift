@@ -9,7 +9,8 @@
 import UIKit
 import AVFoundation
 
-class RecordSoundViewController: UIViewController,AVAudioRecorderDelegate {
+
+class RecordSoundViewController: UIViewController {
 
     @IBOutlet weak var recordingLabel: UILabel!
     override func viewDidLoad() {
@@ -49,7 +50,6 @@ class RecordSoundViewController: UIViewController,AVAudioRecorderDelegate {
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
         audioRecorder.isMeteringEnabled = true
         audioRecorder.prepareToRecord()
-        audioRecorder.delegate=self
         audioRecorder.record()
     }
 
@@ -66,6 +66,6 @@ class RecordSoundViewController: UIViewController,AVAudioRecorderDelegate {
     }
     @IBOutlet weak var stoprecoding: UIButton!
     
-    func audioRe
+    
 }
 
